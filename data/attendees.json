@@ -1,0 +1,867 @@
+[
+  {
+    "attendee_id": "a001",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "affiliation": "GWU",
+    "email": "jane.doe@example.com",
+    "interests": [
+      "transportation",
+      "policy",
+      "behavioral economics"
+    ],
+    "linkedin_url": "https://linkedin.com/in/jane-doe",
+    "country": "USA",
+    "bio": "Jane Doe is Professor of Public Policy at George Washington University, where she directs the Center for Urban Mobility Research. Her work sits at the intersection of transportation engineering, behavioral economics, and public policy, with a particular focus on how pricing schemes and information nudges shape commuter choice in mid-sized US cities.\n\nBefore joining GWU in 2014, she spent five years at the US Department of Transportation Office of Policy Analysis and held a postdoctoral fellowship at MIT's Center for Transportation and Logistics. She has published in the American Economic Review, the Journal of Public Economics, and Transportation Research Part A, and her congestion-pricing pilots in Denver and Pittsburgh have informed legislation in both cities.\n\nShe currently serves on the National Academies' standing committee on Travel Behavior and Values and is a frequent commentator for outlets including The Atlantic and NPR's Marketplace.",
+    "headshot_url": "https://i.pravatar.cc/150?img=47",
+    "role": "keynote",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a002",
+    "first_name": "Carlos",
+    "last_name": "Rivera",
+    "affiliation": "MIT",
+    "email": "carlos.rivera@example.com",
+    "interests": [
+      "transportation",
+      "machine learning",
+      "urban planning"
+    ],
+    "linkedin_url": "https://linkedin.com/in/carlos-rivera",
+    "country": "USA",
+    "bio": "Carlos Rivera is an Associate Professor in the Department of Civil and Environmental Engineering at MIT, jointly appointed in the Institute for Data, Systems, and Society. His research develops hybrid discrete-choice models that incorporate neural-network components for utility specification, applied to travel-demand and technology-adoption settings across Latin America.\n\nHe holds a PhD from UC Berkeley (2016) and a BS from the Universidad Nacional Autónoma de México. Before MIT he led the analytics group at the Inter-American Development Bank's Transport Division, where he developed forecasting models for EV diffusion across six Latin American countries — work that forms the basis of his ISA 2026 presentation.\n\nHis projects have been funded by NSF, the Volpe Center, and the Hewlett Foundation. Outside of research he co-chairs MIT's annual Latinx in Transportation symposium and mentors first-generation undergraduates through the MIT Summer Research Program.",
+    "headshot_url": "https://i.pravatar.cc/150?img=11",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a003",
+    "first_name": "Mei",
+    "last_name": "Chen",
+    "affiliation": "Tsinghua University",
+    "email": "mei.chen@example.com",
+    "interests": [
+      "behavioral economics",
+      "experimental methods"
+    ],
+    "linkedin_url": "https://linkedin.com/in/mei-chen",
+    "country": "China",
+    "bio": "Mei Chen is an Associate Professor of Economics at Tsinghua University's School of Economics and Management. Her work bridges experimental economics and reinforcement-learning theory, asking how artificial agents and human subjects update risk preferences under shifting reward environments.\n\nShe earned her PhD from Stanford in 2018 and was a visiting researcher at the Max Planck Institute for Human Development before joining Tsinghua. Her recent paper on RL agents and risk preference, presented at ISA 2026, has been featured in Nature Human Behaviour and was awarded the SHEN Honghai Prize for Young Economists in 2025.\n\nShe co-directs the Tsinghua Behavioral Lab and serves on the editorial board of Experimental Economics.",
+    "headshot_url": "https://i.pravatar.cc/150?img=25",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a004",
+    "first_name": "Liam",
+    "last_name": "O'Brien",
+    "affiliation": "Trinity College Dublin",
+    "email": "liam.obrien@example.com",
+    "interests": [
+      "policy",
+      "innovation",
+      "industry studies"
+    ],
+    "linkedin_url": "",
+    "country": "Ireland",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a005",
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "affiliation": "IIT Bombay",
+    "email": "priya.sharma@example.com",
+    "interests": [
+      "machine learning",
+      "innovation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/priya-sharma",
+    "country": "India",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a006",
+    "first_name": "Tomás",
+    "last_name": "Alvarez",
+    "affiliation": "Universidad de Buenos Aires",
+    "email": "toms.alvarez@example.com",
+    "interests": [
+      "industry studies",
+      "labor economics"
+    ],
+    "linkedin_url": "",
+    "country": "Argentina",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a007",
+    "first_name": "Sara",
+    "last_name": "Müller",
+    "affiliation": "TU München",
+    "email": "sara.mller@example.com",
+    "interests": [
+      "urban planning",
+      "transportation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/sara-müller",
+    "country": "Germany",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a008",
+    "first_name": "David",
+    "last_name": "Kim",
+    "affiliation": "GWU",
+    "email": "david.kim@example.com",
+    "interests": [
+      "innovation",
+      "industry studies",
+      "policy"
+    ],
+    "linkedin_url": "",
+    "country": "USA",
+    "bio": "David Kim is Associate Professor of Strategic Management at the George Washington University School of Business and a Faculty Affiliate of the GW Institute for International Economic Policy. He studies how firms in regulated industries respond to discontinuous policy shifts, with empirical work in pharmaceuticals, semiconductors, and clean energy.\n\nHis recent papers examine national AI strategies and their downstream effects on startup formation, drawing on a panel of 28 OECD countries from 2015 to 2024. He is chairing the Innovation in Emerging Markets session at ISA 2026.\n\nBefore academia he spent four years as a strategy consultant at Bain & Company and holds a PhD from Wharton.",
+    "headshot_url": "https://i.pravatar.cc/150?img=14",
+    "role": "organizer",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a009",
+    "first_name": "Aisha",
+    "last_name": "Hassan",
+    "affiliation": "University of Cape Town",
+    "email": "aisha.hassan@example.com",
+    "interests": [
+      "labor economics",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/aisha-hassan",
+    "country": "South Africa",
+    "bio": "Aisha Hassan is a Senior Lecturer in Economics at the University of Cape Town and a Research Affiliate of the Southern Africa Labour and Development Research Unit (SALDRU). Her work focuses on the diffusion of mobile money in sub-Saharan Africa and its effects on small-business formation and household consumption smoothing.\n\nShe is presenting panel-data evidence from a longitudinal study spanning Kenya, Tanzania, and Uganda at ISA 2026, and is chairing the Labor and Industry session on the conference's second day.\n\nShe holds a PhD from the London School of Economics (2017) and previously held positions at the World Bank's Africa Region Chief Economist's Office. Outside of research she co-founded the Cape Town chapter of Women in Economics for Africa.",
+    "headshot_url": "https://i.pravatar.cc/150?img=49",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a010",
+    "first_name": "Hiroshi",
+    "last_name": "Tanaka",
+    "affiliation": "University of Tokyo",
+    "email": "hiroshi.tanaka@example.com",
+    "interests": [
+      "machine learning",
+      "behavioral economics"
+    ],
+    "linkedin_url": "",
+    "country": "Japan",
+    "bio": "Hiroshi Tanaka is Professor of Economics at the University of Tokyo, where he heads the Computational Behavioral Lab. His research combines machine-learning methods with traditional discrete-choice models to study technology adoption, with applications in mobility services and energy demand.\n\nHe is moderating the Machine Learning and Behavior session at ISA 2026 and is also co-author on a paper presented in that session on hybrid ML-augmented choice models. He has published in Econometrica, the Review of Economic Studies, and the Journal of the American Statistical Association.\n\nBefore Tokyo he was a faculty member at the University of British Columbia and a research scientist at the Bank of Japan's Institute for Monetary and Economic Studies.",
+    "headshot_url": "https://i.pravatar.cc/150?img=15",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a011",
+    "first_name": "Elena",
+    "last_name": "Rossi",
+    "affiliation": "MIT",
+    "email": "elena.rossi@example.com",
+    "interests": [
+      "experimental methods",
+      "innovation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/elena-rossi",
+    "country": "USA",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a012",
+    "first_name": "Marcus",
+    "last_name": "Lee",
+    "affiliation": "GWU",
+    "email": "marcus.lee@example.com",
+    "interests": [
+      "policy",
+      "transportation"
+    ],
+    "linkedin_url": "",
+    "country": "USA",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a013",
+    "first_name": "Sofia",
+    "last_name": "Hernandez",
+    "affiliation": "UC Berkeley",
+    "email": "sofia.hernandez@example.com",
+    "interests": [
+      "transportation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/sofia-hernandez",
+    "country": "Mexico",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a014",
+    "first_name": "Raj",
+    "last_name": "Patel",
+    "affiliation": "Stanford",
+    "email": "raj.patel@example.com",
+    "interests": [
+      "industry studies",
+      "urban planning"
+    ],
+    "linkedin_url": "",
+    "country": "India",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a015",
+    "first_name": "Wei",
+    "last_name": "Zhang",
+    "affiliation": "Peking University",
+    "email": "wei.zhang@example.com",
+    "interests": [
+      "behavioral economics",
+      "sustainability",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/wei-zhang",
+    "country": "China",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a016",
+    "first_name": "Akiko",
+    "last_name": "Yamamoto",
+    "affiliation": "Kyoto University",
+    "email": "akiko.yamamoto@example.com",
+    "interests": [
+      "industry studies",
+      "entrepreneurship"
+    ],
+    "linkedin_url": "",
+    "country": "Japan",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a017",
+    "first_name": "Pierre",
+    "last_name": "Dubois",
+    "affiliation": "Sciences Po",
+    "email": "pierre.dubois@example.com",
+    "interests": [
+      "innovation",
+      "technology adoption",
+      "sustainability"
+    ],
+    "linkedin_url": "https://linkedin.com/in/pierre-dubois",
+    "country": "France",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a018",
+    "first_name": "Anna",
+    "last_name": "Schmidt",
+    "affiliation": "Humboldt University",
+    "email": "anna.schmidt@example.com",
+    "interests": [
+      "labor economics",
+      "transportation",
+      "experimental methods"
+    ],
+    "linkedin_url": "",
+    "country": "Germany",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a019",
+    "first_name": "Lucia",
+    "last_name": "Romano",
+    "affiliation": "University of Bologna",
+    "email": "lucia.romano@example.com",
+    "interests": [
+      "labor economics",
+      "urban planning"
+    ],
+    "linkedin_url": "https://linkedin.com/in/lucia-romano",
+    "country": "Italy",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a020",
+    "first_name": "Olu",
+    "last_name": "Adebayo",
+    "affiliation": "University of Lagos",
+    "email": "olu.adebayo@example.com",
+    "interests": [
+      "machine learning",
+      "behavioral economics"
+    ],
+    "linkedin_url": "",
+    "country": "Nigeria",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a021",
+    "first_name": "Yuki",
+    "last_name": "Sato",
+    "affiliation": "Keio University",
+    "email": "yuki.sato@example.com",
+    "interests": [
+      "education",
+      "labor economics"
+    ],
+    "linkedin_url": "https://linkedin.com/in/yuki-sato",
+    "country": "Japan",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a022",
+    "first_name": "Maria",
+    "last_name": "Santos",
+    "affiliation": "University of São Paulo",
+    "email": "maria.santos@example.com",
+    "interests": [
+      "technology adoption",
+      "machine learning"
+    ],
+    "linkedin_url": "",
+    "country": "Brazil",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a023",
+    "first_name": "Ahmed",
+    "last_name": "Hassan",
+    "affiliation": "American University in Cairo",
+    "email": "ahmed.hassan@example.com",
+    "interests": [
+      "behavioral economics",
+      "technology adoption"
+    ],
+    "linkedin_url": "https://linkedin.com/in/ahmed-hassan",
+    "country": "Egypt",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a024",
+    "first_name": "Ji-hoon",
+    "last_name": "Kim",
+    "affiliation": "Seoul National University",
+    "email": "jihoon.kim@example.com",
+    "interests": [
+      "education",
+      "innovation",
+      "behavioral economics"
+    ],
+    "linkedin_url": "",
+    "country": "South Korea",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a025",
+    "first_name": "Emma",
+    "last_name": "Wilson",
+    "affiliation": "Oxford",
+    "email": "emma.wilson@example.com",
+    "interests": [
+      "finance",
+      "behavioral economics"
+    ],
+    "linkedin_url": "https://linkedin.com/in/emma-wilson",
+    "country": "UK",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a027",
+    "first_name": "Felipe",
+    "last_name": "Martinez",
+    "affiliation": "Universidad de Chile",
+    "email": "felipe.martinez@example.com",
+    "interests": [
+      "experimental methods",
+      "education"
+    ],
+    "linkedin_url": "",
+    "country": "Chile",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a028",
+    "first_name": "Noa",
+    "last_name": "Cohen",
+    "affiliation": "Tel Aviv University",
+    "email": "noa.cohen@example.com",
+    "interests": [
+      "behavioral economics",
+      "experimental methods"
+    ],
+    "linkedin_url": "https://linkedin.com/in/noa-cohen",
+    "country": "Israel",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a029",
+    "first_name": "Daniel",
+    "last_name": "O'Sullivan",
+    "affiliation": "UCD Dublin",
+    "email": "daniel.osullivan@example.com",
+    "interests": [
+      "experimental methods",
+      "public health"
+    ],
+    "linkedin_url": "",
+    "country": "Ireland",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a030",
+    "first_name": "Camille",
+    "last_name": "Laurent",
+    "affiliation": "McGill",
+    "email": "camille.laurent@example.com",
+    "interests": [
+      "industry studies",
+      "healthcare",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/camille-laurent",
+    "country": "Canada",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a031",
+    "first_name": "Ravi",
+    "last_name": "Krishnan",
+    "affiliation": "IISc Bangalore",
+    "email": "ravi.krishnan@example.com",
+    "interests": [
+      "healthcare"
+    ],
+    "linkedin_url": "",
+    "country": "India",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a032",
+    "first_name": "Lin",
+    "last_name": "Yue",
+    "affiliation": "Fudan University",
+    "email": "lin.yue@example.com",
+    "interests": [
+      "innovation"
+    ],
+    "linkedin_url": "",
+    "country": "China",
+    "bio": "",
+    "headshot_url": "",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a033",
+    "first_name": "Aditi",
+    "last_name": "Mehta",
+    "affiliation": "IIM Bangalore",
+    "email": "aditi.mehta@example.com",
+    "interests": [
+      "transportation",
+      "urban planning",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/aditi-mehta",
+    "country": "India",
+    "bio": "Aditi Mehta is an Associate Professor of Public Policy at IIM Bangalore. Her work uses administrative microdata to evaluate how metro investments reshape labour markets in fast-growing Indian cities.\n\nShe is currently leading a multi-city study on first-mile / last-mile integration with the World Bank and the Ministry of Housing and Urban Affairs.",
+    "headshot_url": "https://i.pravatar.cc/150?img=5",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a034",
+    "first_name": "Lucas",
+    "last_name": "Bauer",
+    "affiliation": "TU Munich",
+    "email": "lucas.bauer@example.com",
+    "interests": [
+      "manufacturing",
+      "innovation"
+    ],
+    "linkedin_url": "",
+    "country": "Germany",
+    "bio": "Lucas Bauer studies the diffusion of advanced manufacturing across small and medium European firms. His recent paper on collaborative robotics adoption was awarded the 2025 ISA Best Empirical Paper prize.",
+    "headshot_url": "https://i.pravatar.cc/150?img=12",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a035",
+    "first_name": "Sofia",
+    "last_name": "Romano",
+    "affiliation": "Bocconi University",
+    "email": "sofia.romano@example.com",
+    "interests": [
+      "labor economics",
+      "gender economics",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/sofia-romano",
+    "country": "Italy",
+    "bio": "Sofia Romano is a Senior Research Fellow at Bocconi's IGIER. She studies the interaction between parental-leave reforms and women's career trajectories using linked employer-employee data from Italy and Spain.",
+    "headshot_url": "https://i.pravatar.cc/150?img=30",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a036",
+    "first_name": "Khaled",
+    "last_name": "Mansour",
+    "affiliation": "American University in Cairo",
+    "email": "khaled.mansour@example.com",
+    "interests": [
+      "energy",
+      "policy",
+      "climate"
+    ],
+    "linkedin_url": "",
+    "country": "Egypt",
+    "bio": "Khaled Mansour leads the Energy Transitions Lab at AUC. His current work uses high-frequency grid data to assess the macroeconomic effects of fuel-subsidy reform in North African economies.",
+    "headshot_url": "https://i.pravatar.cc/150?img=33",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a037",
+    "first_name": "Yuki",
+    "last_name": "Tanaka",
+    "affiliation": "Tokyo Institute of Technology",
+    "email": "yuki.tanaka@example.com",
+    "interests": [
+      "machine learning",
+      "manufacturing",
+      "innovation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/yuki-tanaka",
+    "country": "Japan",
+    "bio": "Yuki Tanaka builds machine-learning tools for high-mix low-volume manufacturing. Her group at Tokyo Tech collaborates with three Japanese precision-instrument makers on scheduling optimisation under tariff uncertainty.",
+    "headshot_url": "https://i.pravatar.cc/150?img=60",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a038",
+    "first_name": "Rita",
+    "last_name": "Okonkwo",
+    "affiliation": "University of Lagos",
+    "email": "rita.okonkwo@example.com",
+    "interests": [
+      "healthcare",
+      "policy",
+      "labor economics"
+    ],
+    "linkedin_url": "",
+    "country": "Nigeria",
+    "bio": "Rita Okonkwo is a Senior Lecturer in Health Economics at the University of Lagos. Her recent work documents how community-pharmacy expansion in Lagos State changed household out-of-pocket spending on chronic-disease medication.",
+    "headshot_url": "https://i.pravatar.cc/150?img=9",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a039",
+    "first_name": "Mateo",
+    "last_name": "Vega",
+    "affiliation": "Universidad de los Andes",
+    "email": "mateo.vega@example.com",
+    "interests": [
+      "innovation",
+      "transportation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/mateo-vega",
+    "country": "Colombia",
+    "bio": "Mateo Vega studies bus-rapid-transit systems across Latin America. His current project tracks ridership shocks after fare reforms in Bogotá, Quito, and Lima.",
+    "headshot_url": "https://i.pravatar.cc/150?img=17",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a040",
+    "first_name": "Hannah",
+    "last_name": "Lindqvist",
+    "affiliation": "Stockholm School of Economics",
+    "email": "hannah.lindqvist@example.com",
+    "interests": [
+      "behavioral economics",
+      "labor economics"
+    ],
+    "linkedin_url": "",
+    "country": "Sweden",
+    "bio": "Hannah Lindqvist uses field experiments to study workplace defaults — automatic enrolment in pension top-ups, default break schedules, and similar nudges. Her dissertation won the 2024 Erik Lindahl Prize.",
+    "headshot_url": "https://i.pravatar.cc/150?img=21",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a041",
+    "first_name": "Ravi",
+    "last_name": "Subramanian",
+    "affiliation": "Wharton, University of Pennsylvania",
+    "email": "ravi.subramanian@example.com",
+    "interests": [
+      "networks",
+      "innovation",
+      "manufacturing"
+    ],
+    "linkedin_url": "https://linkedin.com/in/ravi-subramanian",
+    "country": "USA",
+    "bio": "",
+    "headshot_url": "https://i.pravatar.cc/150?img=53",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a042",
+    "first_name": "Chloé",
+    "last_name": "Dubois",
+    "affiliation": "HEC Paris",
+    "email": "chloé.dubois@example.com",
+    "interests": [
+      "sustainability",
+      "manufacturing",
+      "policy"
+    ],
+    "linkedin_url": "",
+    "country": "France",
+    "bio": "Chloé Dubois examines how European CBAM rules reshape upstream supplier relationships. Her ongoing project uses customs microdata to track substitution patterns in aluminium and cement.",
+    "headshot_url": "https://i.pravatar.cc/150?img=26",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a043",
+    "first_name": "Ethan",
+    "last_name": "Park",
+    "affiliation": "KAIST",
+    "email": "ethan.park@example.com",
+    "interests": [
+      "machine learning",
+      "energy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/ethan-park",
+    "country": "South Korea",
+    "bio": "Ethan Park builds reinforcement-learning controllers for industrial battery storage. He works closely with two Korean utilities on integrating fast-response storage into wholesale electricity markets.",
+    "headshot_url": "https://i.pravatar.cc/150?img=56",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a044",
+    "first_name": "Nadia",
+    "last_name": "Hussein",
+    "affiliation": "King's College London",
+    "email": "nadia.hussein@example.com",
+    "interests": [
+      "gender economics",
+      "policy",
+      "healthcare"
+    ],
+    "linkedin_url": "",
+    "country": "UK",
+    "bio": "Nadia Hussein is a Lecturer in Public Policy. Her research evaluates the gendered impact of universal credit reforms in the UK, combining administrative data with longitudinal qualitative interviews.",
+    "headshot_url": "https://i.pravatar.cc/150?img=41",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a045",
+    "first_name": "Diego",
+    "last_name": "Fernandez",
+    "affiliation": "UC Berkeley",
+    "email": "diego.fernandez@example.com",
+    "interests": [
+      "urban planning",
+      "transportation",
+      "policy"
+    ],
+    "linkedin_url": "https://linkedin.com/in/diego-fernandez",
+    "country": "USA",
+    "bio": "Diego Fernandez studies the long-run incidence of highway investment on Latino communities in the U.S. Southwest. His book manuscript is under contract with University of Chicago Press.",
+    "headshot_url": "https://i.pravatar.cc/150?img=64",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a046",
+    "first_name": "Anya",
+    "last_name": "Volkov",
+    "affiliation": "Skolkovo Institute of Science and Technology",
+    "email": "anya.volkov@example.com",
+    "interests": [
+      "energy",
+      "behavioral economics"
+    ],
+    "linkedin_url": "",
+    "country": "Russia",
+    "bio": "",
+    "headshot_url": "https://i.pravatar.cc/150?img=36",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a047",
+    "first_name": "Pedro",
+    "last_name": "Costa",
+    "affiliation": "University of São Paulo",
+    "email": "pedro.costa@example.com",
+    "interests": [
+      "labor economics",
+      "manufacturing"
+    ],
+    "linkedin_url": "https://linkedin.com/in/pedro-costa",
+    "country": "Brazil",
+    "bio": "Pedro Costa is an Associate Professor at the USP School of Economics. His work uses RAIS linked microdata to study how trade liberalisation in the 1990s reshaped wage inequality in Brazilian manufacturing.",
+    "headshot_url": "https://i.pravatar.cc/150?img=13",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a049",
+    "first_name": "Tariq",
+    "last_name": "Al-Rashid",
+    "affiliation": "KAUST",
+    "email": "tariq.alrashid@example.com",
+    "interests": [
+      "energy",
+      "machine learning"
+    ],
+    "linkedin_url": "https://linkedin.com/in/tariq-al-rashid",
+    "country": "Saudi Arabia",
+    "bio": "Tariq Al-Rashid leads the Smart Grids group at KAUST. His current project integrates satellite-derived demand signals with ML-based forecasting to support Gulf states' renewable-energy transitions.",
+    "headshot_url": "https://i.pravatar.cc/150?img=7",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a050",
+    "first_name": "Mira",
+    "last_name": "Patel",
+    "affiliation": "Stanford GSB",
+    "email": "mira.patel@example.com",
+    "interests": [
+      "healthcare",
+      "behavioral economics"
+    ],
+    "linkedin_url": "",
+    "country": "USA",
+    "bio": "",
+    "headshot_url": "https://i.pravatar.cc/150?img=44",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a051",
+    "first_name": "Olusegun",
+    "last_name": "Adeleke",
+    "affiliation": "University of Cape Town",
+    "email": "olusegun.adeleke@example.com",
+    "interests": [
+      "labor economics",
+      "transportation"
+    ],
+    "linkedin_url": "https://linkedin.com/in/olusegun-adeleke",
+    "country": "South Africa",
+    "bio": "",
+    "headshot_url": "https://i.pravatar.cc/150?img=51",
+    "role": "",
+    "show_in_network": true
+  },
+  {
+    "attendee_id": "a052",
+    "first_name": "Sara",
+    "last_name": "Kovacs",
+    "affiliation": "Central European University",
+    "email": "sara.kovacs@example.com",
+    "interests": [
+      "innovation",
+      "gender economics"
+    ],
+    "linkedin_url": "",
+    "country": "Austria",
+    "bio": "Sara Kovacs studies founder networks across Central and Eastern Europe. Her ongoing work links university-affiliation data with patent filings to map how mentor-protégé pairs influence women-led startup outcomes.",
+    "headshot_url": "https://i.pravatar.cc/150?img=38",
+    "role": "",
+    "show_in_network": true
+  }
+]

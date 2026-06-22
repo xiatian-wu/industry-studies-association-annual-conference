@@ -1,0 +1,149 @@
+[
+  {
+    "presentation_id": "p001",
+    "title": "Diffusion of EV technology in Latin America",
+    "description": "We examine the diffusion patterns of electric vehicle technology across six Latin American countries from 2015-2024.",
+    "session_id": "s001",
+    "presenter_ids": [
+      "a002"
+    ],
+    "additional_credits": [
+      "Maria Sanchez (Stanford)"
+    ],
+    "tags": [
+      "transportation",
+      "innovation"
+    ]
+  },
+  {
+    "presentation_id": "p002",
+    "title": "Mobile money adoption in sub-Saharan Africa",
+    "description": "A panel study of mobile money diffusion and its effect on small business formation.",
+    "session_id": "s001",
+    "presenter_ids": [
+      "a009"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "innovation",
+      "labor economics"
+    ]
+  },
+  {
+    "presentation_id": "p003",
+    "title": "Patents and trade in emerging markets",
+    "description": "Cross-country evidence on the link between IP protection and trade flows.",
+    "session_id": "s001",
+    "presenter_ids": [
+      "a005",
+      "a004"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "innovation",
+      "industry studies"
+    ]
+  },
+  {
+    "presentation_id": "p004",
+    "title": "Congestion pricing in mid-sized cities",
+    "description": "Field-experimental evidence from three pilot programs.",
+    "session_id": "s002",
+    "presenter_ids": [
+      "a001",
+      "a012"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "transportation",
+      "policy"
+    ]
+  },
+  {
+    "presentation_id": "p005",
+    "title": "Modal substitution after bike-share rollout",
+    "description": "Difference-in-differences estimates of mode shift after public bike-share launch.",
+    "session_id": "s002",
+    "presenter_ids": [
+      "a007"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "transportation",
+      "urban planning"
+    ]
+  },
+  {
+    "presentation_id": "p006",
+    "title": "ML-augmented choice models",
+    "description": "Hybrid discrete-choice models with neural network components for utility specification.",
+    "session_id": "s004",
+    "presenter_ids": [
+      "a002",
+      "a010"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "machine learning",
+      "behavioral economics"
+    ]
+  },
+  {
+    "presentation_id": "p007",
+    "title": "Reinforcement learning and risk preference",
+    "description": "An experimental study of RL agents under shifting risk environments.",
+    "session_id": "s004",
+    "presenter_ids": [
+      "a003"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "machine learning",
+      "experimental methods"
+    ]
+  },
+  {
+    "presentation_id": "p008",
+    "title": "Lab evidence on prosocial behavior",
+    "description": "Public-goods game results from a large multi-site replication.",
+    "session_id": "s004",
+    "presenter_ids": [
+      "a011"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "behavioral economics",
+      "experimental methods"
+    ]
+  },
+  {
+    "presentation_id": "p009",
+    "title": "Gig work and bargaining power",
+    "description": "Survey evidence from platform workers across three countries.",
+    "session_id": "s005",
+    "presenter_ids": [
+      "a006"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "labor economics",
+      "industry studies"
+    ]
+  },
+  {
+    "presentation_id": "p010",
+    "title": "Industrial policy in the AI era",
+    "description": "A comparative study of national AI strategies and downstream firm formation.",
+    "session_id": "s005",
+    "presenter_ids": [
+      "a008",
+      "a004"
+    ],
+    "additional_credits": [],
+    "tags": [
+      "policy",
+      "innovation",
+      "industry studies"
+    ]
+  }
+]

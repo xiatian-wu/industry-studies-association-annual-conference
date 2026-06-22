@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conference Connection: Event Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=3">
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+</head>
+<body>
+  <header>
+    <button id="sidebar-toggle" aria-label="Toggle sidebar">&#9776;</button>
+    <div class="event-meta">
+      <div class="event-title-row">
+        <img id="event-logo" class="event-logo" alt="" hidden>
+        <h1 id="event-title">Event Site</h1>
+        <a id="event-website" class="event-website-link" target="_blank" rel="noopener" hidden>Event website ↗</a>
+      </div>
+      <p id="event-description" class="event-description" hidden></p>
+    </div>
+    <nav id="view-nav" class="view-nav">
+      <button data-view="schedule" class="active">Schedule</button>
+      <button data-view="graph">Network</button>
+      <button data-view="venue" id="venue-tab" hidden>Location</button>
+      <button data-view="info" id="info-tab" hidden>Info</button>
+    </nav>
+  </header>
+  <div id="sidebar-overlay"></div>
+  <main>
+    <section id="schedule-view">
+      <div class="main-container">
+        <aside class="sidebar" id="schedule-sidebar">
+          <div id="day-slot"></div>
+          <div id="timeslot-slot"></div>
+          <div id="track-slot"></div>
+          <div class="control-item">
+            <label for="search-input">Search</label>
+            <input id="search-input" type="search" placeholder="Title, author, track...">
+          </div>
+          <div class="control-item button-group">
+            <button id="expand-all" class="btn-action btn-primary">Expand All Sessions</button>
+            <button id="collapse-all" class="btn-action btn-danger">Collapse All Sessions</button>
+            <button id="reset-filters" class="btn-action btn-secondary">Reset All Filters</button>
+          </div>
+        </aside>
+        <section class="main-content" id="app">
+          <p>Loading...</p>
+        </section>
+      </div>
+    </section>
+    <section id="graph-view" class="hidden">
+      <div class="main-container">
+        <aside class="sidebar" id="graph-sidebar">
+          <div class="control-item" id="focus-control">
+            <label for="focus-select">Focus on me</label>
+            <select id="focus-select">
+              <option value="">(no focus)</option>
+            </select>
+          </div>
+          <div class="control-item">
+            <button type="button" id="reset-graph-filters" class="btn-action btn-secondary">Reset All Filters</button>
+          </div>
+          <div class="control-item network-explainer" id="network-explainer"></div>
+        </aside>
+        <section class="main-content" id="graph-container"></section>
+      </div>
+    </section>
+    <section id="venue-view" class="hidden">
+      <div id="venue-container" class="venue-page"></div>
+    </section>
+    <section id="info-view" class="hidden">
+      <div id="info-container" class="info-page"></div>
+    </section>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

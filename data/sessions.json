@@ -1,0 +1,86 @@
+[
+  {
+    "session_id": "s001",
+    "title": "Innovation in Emerging Markets",
+    "description": "Three perspectives on how new technologies diffuse across emerging economies.",
+    "date": "2026-06-03",
+    "start_time": "14:00",
+    "end_time": "15:30",
+    "location": "SEH 100",
+    "track": "Innovation",
+    "session_type": "paper session",
+    "presenter_ids": [],
+    "moderator_attendee_id": "a008"
+  },
+  {
+    "session_id": "s002",
+    "title": "Transportation Policy",
+    "description": "Empirical work on regulation, modal choice, and infrastructure investment.",
+    "date": "2026-06-04",
+    "start_time": "09:00",
+    "end_time": "10:30",
+    "location": "SEH 200",
+    "track": "Policy",
+    "session_type": "paper session",
+    "presenter_ids": [],
+    "moderator_attendee_id": "a012"
+  },
+  {
+    "session_id": "s003",
+    "title": "Keynote: The Future of Industry Studies",
+    "description": "Opening keynote from Prof. Jane Doe.",
+    "date": "2026-06-03",
+    "start_time": "09:00",
+    "end_time": "10:00",
+    "location": "Grand Hall",
+    "track": "Plenary",
+    "session_type": "keynote",
+    "presenter_ids": [
+      "a001"
+    ],
+    "moderator_attendee_id": ""
+  },
+  {
+    "session_id": "s004",
+    "title": "Machine Learning and Behavior",
+    "description": "Computational methods meet behavioral data.",
+    "date": "2026-06-04",
+    "start_time": "11:00",
+    "end_time": "12:30",
+    "location": "SEH 100",
+    "track": "Methods",
+    "session_type": "paper session",
+    "presenter_ids": [],
+    "moderator_attendee_id": "a010"
+  },
+  {
+    "session_id": "s005",
+    "title": "Labor and Industry",
+    "description": "Two papers on the changing nature of work.",
+    "date": "2026-06-05",
+    "start_time": "09:00",
+    "end_time": "10:30",
+    "location": "SEH 200",
+    "track": "Industry",
+    "session_type": "paper session",
+    "presenter_ids": [],
+    "moderator_attendee_id": "a009"
+  },
+  {
+    "session_id": "s006",
+    "title": "Closing Panel",
+    "description": "A roundtable with conference organizers and senior scholars.",
+    "date": "2026-06-05",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "Grand Hall",
+    "track": "Plenary",
+    "session_type": "panel",
+    "presenter_ids": [
+      "a001",
+      "a004",
+      "a006"
+    ],
+    "moderator_attendee_id": "a001"
+  }
+]
