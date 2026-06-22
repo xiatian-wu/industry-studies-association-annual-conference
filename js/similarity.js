@@ -5,8 +5,17 @@
 // whose final score meets the threshold.
 //
 // Component types currently supported:
-//   - 'jaccard'        Array overlap: |A ∩ B| / |A ∪ B|. For tag-style
-//                      fields like `interests`, `tags`.
+//   - 'overlap'        Overlap coefficient: |A ∩ B| / min(|A|, |B|). The
+//                      default for tag-style fields like `interests`.
+//                      Rewards any shared tag regardless of how broad
+//                      each person's overall list is -- so two people
+//                      who both list 'energy' connect on 'energy', even
+//                      if one of them happens to also list five other
+//                      topics.
+//   - 'jaccard'        Jaccard: |A ∩ B| / |A ∪ B|. Stricter alternative
+//                      to 'overlap': penalises pairs whose lists differ
+//                      in size. Available for chairs who want only the
+//                      tightest tag matches.
 //   - 'exact_match'    Returns 1 if both values are non-empty and equal,
 //                      0 otherwise. For categorical fields like
 //                      `affiliation`, `country`.
@@ -42,9 +51,9 @@ const STOPWORDS = new Set([
 export const DEFAULT_SIMILARITY_CONFIG = {
   threshold: 0.3,
   components: [
-    { field: 'interests',   type: 'jaccard',       weight: 1.0, enabled: true,
+    { field: 'interests',   type: 'overlap',       weight: 1.0, enabled: true,
       label: 'Shared interests',
-      hint: 'Two people show up as connected when their interest lists overlap.' },
+      hint: 'Two people show up as connected when their interest lists overlap on at least one topic.' },
     { field: 'affiliation', type: 'exact_match',   weight: 0.6, enabled: true,
       label: 'Same affiliation',
       hint: 'Two people show up as connected when they list the same institution.' },
@@ -92,6 +101,20 @@ function jaccard(a = [], b = []) {
   return union === 0 ? 0 : intersection / union;
 }
 
+// |A ∩ B| / min(|A|, |B|). Differs from Jaccard in that it doesn't
+// penalise pairs whose lists differ in size: an attendee who lists
+// 5 interests and one who lists 2 can still score 1.0 if all 2 are
+// shared. The right default for tag-style 'I'm interested in X' fields
+// where chair intuition is "if we both list X, that should count".
+function overlap(a = [], b = []) {
+  const sa = new Set(a);
+  const sb = new Set(b);
+  if (sa.size === 0 || sb.size === 0) return 0;
+  let intersection = 0;
+  for (const x of sa) if (sb.has(x)) intersection++;
+  return intersection / Math.min(sa.size, sb.size);
+}
+
 function tokenizeText(text) {
   if (!text || typeof text !== 'string') return [];
   return text
@@ -105,6 +128,8 @@ function componentScore(a, b, comp) {
   const va = a[comp.field];
   const vb = b[comp.field];
   switch (comp.type) {
+    case 'overlap':
+      return overlap(Array.isArray(va) ? va : [], Array.isArray(vb) ? vb : []);
     case 'jaccard':
       return jaccard(Array.isArray(va) ? va : [], Array.isArray(vb) ? vb : []);
     case 'exact_match':
@@ -159,4 +184,4 @@ export function computeEdges(attendees, configOrThreshold) {
 }
 
 // Internal helpers exposed for testing.
-export const _internals = { jaccard, tokenizeText, componentScore, normalizeConfig };
+export const _internals = { jaccard, overlap, tokenizeText, componentScore, normalizeConfig };

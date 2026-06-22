@@ -8,11 +8,11 @@
     "components": [
       {
         "field": "interests",
-        "type": "jaccard",
+        "type": "overlap",
         "weight": 1,
         "enabled": true,
         "label": "Shared interests",
-        "hint": "Two people show up as connected when their interest lists overlap."
+        "hint": "Two people show up as connected when their interest lists overlap on at least one topic."
       },
       {
         "field": "affiliation",
