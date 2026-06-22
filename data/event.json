@@ -33,7 +33,7 @@
       {
         "field": "bio",
         "type": "text_keywords",
-        "weight": 0.6,
+        "weight": 0.3,
         "enabled": true,
         "label": "Similar bios",
         "hint": "Two people show up as connected when their bios mention similar topics."
